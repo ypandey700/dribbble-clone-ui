@@ -8,6 +8,11 @@ body,html{
     width: 100%;
     height: 100%;
 }
+.special-gothic-expanded-one-regular {
+  font-family: "Special Gothic Expanded One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
 
 #page1{
     width: 100%;
@@ -64,6 +69,64 @@ body,html{
 #nav img{
     height: 70%;
 }
+#content{
+    width: 100%;
+    height: calc(100% - 11%);
+    /* background-color: rgb(234, 133, 1); */
+}
+.content-top{
+    width: 100%;
+    height: 60%;
+    /* background-color: gray; */
+    padding: 5% 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.content-bottom{
+    width: 100%;
+    height: 40%;
+    background-color: lightsalmon;
+}
+.content-top h3{
+    /* margin: 40px 0 ; */
+    background-color: palevioletred;
+}
+.content-top h3:nth-child(1){
+    background-color: #f2b0ea;
+    color: black; 
+    padding: 4px 18px ;
+    /* margin-bottom: 0; */
+    border-radius: 50px;
+    font-size: 14px;
+    font-weight: 500;
+    
+    
+}
+.content-top h3:nth-child(4){
+    margin-top: 0;
+    color: white;
+    font-size: 14px;
+    padding: 14px 20px ;
+    border-radius: 50px;
+    font-weight: 500;
+    background-color: rgb(0, 0, 0);
+}
+.content-top h3:nth-child(3){
+    font-weight: 500;
+    color: black;
+    background-color: transparent;
 
+}
+.content-top h1{
+    text-align: center;
+    font-size: 60px;
+     font-family: "Libertinus Serif", serif;
+  font-weight: 500;
+  font-style: normal;
+/* background-color: rebeccapurple; */
+}
 
 
